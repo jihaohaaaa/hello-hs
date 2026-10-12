@@ -1,0 +1,28 @@
+# Cabal build artifacts & local environment
+dist-newstyle/
+dist/
+cabal-dev/
+cabal.project.local
+cabal.project.local~
+.ghc.environment.*
+
+# Stack build artifacts
+.stack-work/
+
+# HLS / GHCi / HIE caches
+.hie/
+*.hi
+*.hie
+*.o
+*.dyn_o
+*.dyn_hi
+*.chi
+*.chs.h
+*.hp
+*.prof
+*.aux
+*.tix
+
+# macOS & Editor
+.DS_Store
+.vscode/
